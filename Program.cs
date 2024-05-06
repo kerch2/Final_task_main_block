@@ -10,14 +10,14 @@
 //         WriteNumbersMtoN(m, n-1);
 //         System.Console.Write($"{n} ");
 //     }
-    
-// }
 
+// }
 
 // System.Console.Write("Input number M -->");
 // int numberM = Convert.ToInt32(System.Console.ReadLine());
 // System.Console.Write("Input number N -->");
 // int numberN = Convert.ToInt32(System.Console.ReadLine());
+
 // if (numberM < numberN)
 // {
 //     WriteNumbersMtoN(numberM, numberN);
@@ -53,7 +53,7 @@ System.Console.Write("Input number M -->");
 int numberM = Convert.ToInt32(System.Console.ReadLine());
 System.Console.Write("Input number N -->");
 int numberN = Convert.ToInt32(System.Console.ReadLine());
-//if (numberM < numberN)
+
 if (numberM < 0 && numberN < 0)
 {
     System.Console.Write("Negative number!!!");
